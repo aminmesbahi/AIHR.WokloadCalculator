@@ -1,14 +1,15 @@
-<p>
-  <mat-toolbar color="primary">
-    
-    <a class="title" [routerLink]="['/']"><img class="logo" src="/assets/Logo_AIHR.svg" width="150" alt="AIHR">{{ title }}</a>
-    <span class="header-spacer"></span>
-    <button mat-icon-button [routerLink]="['/about']" aria-label="About AIHR Workload Calculator App">
+  <mat-toolbar color="primary">    
+    <a class="title" [routerLink]="['/']"><img class="logo" src="/assets/Logo_AIHR.svg" width="150" alt="AIHR">
+      <span *ngIf="!isMobileLayout">{{ title }}</span></a>
+      <span class="header-spacer"></span>
+      <button mat-icon-button [routerLink]="['/about']" aria-label="About AIHR Workload Calculator App">
       <mat-icon>info</mat-icon>
     </button>
+    
     <button mat-raised-button color="accent" [routerLink]="['/history']" aria-label="History of Workload Calculations">
-      <mat-icon>history</mat-icon>
-      Calculation History
+      <mat-icon *ngIf="!isMobileLayout">history</mat-icon>
+      <span  *ngIf="!isMobileLayout">Calculation History</span>
+      <span  *ngIf="isMobileLayout">History</span>
   </button>
   </mat-toolbar>
-</p>
+

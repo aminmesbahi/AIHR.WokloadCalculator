@@ -14,7 +14,10 @@ export class HeaderComponent implements OnInit {
 
   constructor(private router: Router) {  }
 
-  ngOnInit(): void {}
+  public isMobileLayout = false;
+  ngOnInit() {
+    window.onresize = () => this.isMobileLayout = window.innerWidth <= 991;
+  }
   
    ngOnDestroy() {
      this.subscription.unsubscribe();
