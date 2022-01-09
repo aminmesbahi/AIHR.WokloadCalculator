@@ -1,0 +1,11 @@
+.header-spacer {
+  flex: 1 1 auto;
+}
+.title, .title:hover, .title:visited, .title:active{
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;  
+}
+.logo{
+  margin-right: 1em;
+}

@@ -1,0 +1,32 @@
+p.historyTableCourse{
+    line-height: .1m;
+}
+.historyTableCourseHours{
+    color:#9c9c9c !important; 
+    font-weight: 400;
+    font-size: .8em;
+}
+.history-table {
+    width: 100%;
+  }
+  
+  .mat-column-created {
+    width: 200px;
+    padding-right: 24px;
+    text-align: center;
+  }
+  
+  .mat-column-suggestedHours {
+    padding-left: 30px;
+    text-align: center;
+  }
+  
+  .mat-column-startDate, .mat-column-history-endDate {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .mat-column-id {
+    width: 20px;
+    text-align: center;
+  }
