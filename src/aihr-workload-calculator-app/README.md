@@ -1,6 +1,6 @@
-# Angular Crash Course 2021 (Task Tracker App)
+# HIAHR Workload Calculator
 
-This is the project from the [YouTube crash course](https://youtu.be/3dHNOWTI7H8 "Angular Crash Course 2021"). It includes the Angular ui as well as JSON-server for our mock backend
+This project is developed according to the AIHR assessment
 
 ## Usage
 
@@ -14,12 +14,6 @@ npm install
 
 ```
 ng serve
-```
-
-### Run the JSON server (http://localhost:5000)
-
-```
-npm run server
 ```
 
 ### To build for production
