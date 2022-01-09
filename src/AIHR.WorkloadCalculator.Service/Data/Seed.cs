@@ -1,8 +1,8 @@
 ﻿namespace AIHR.WorkloadCalculator.Service.Data
 {
-    internal static class Seed
+    public static class Seed
     {
-        internal static Course[] Courses = {
+        public static Course[] Courses = {
         new Course(1,"Blockchain and HR",8),
         new Course(2,"Compensation & Benefits",32),
         new Course(3,"Digital HR",40),
